@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Todos | JS modern</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<!-- my-3 margin of top&bottom -->
+
+<body>
+    <div class="container">
+        <div class="w-50 my-3 mx-auto ">
+            <h1 id="header" class="text-center text-light mt-5"> Todos </h1>
+            <div id="actions" class="text-center mb-3">
+                <a class="btn btn-primary" data-action="add">Add</a>
+                <a class="btn btn-success" data-action="search">Search</a>
+            </div>
+
+            <div id="form-wrapper" class="mb-3">
+                <!-- JS set add & search input here -->
+            </div>
+            <ul class="list-group" id="todos-list">
+                <li class="list-group-item">
+                    <span>Cras justo odio</span>
+                    <img src="media/delete.jpg" alt="edit icon" width="20px" height="20px" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Dapibus ac facilisis in</span>
+                    <img src="media/delete.jpg" alt="edit icon" width="20px" height="20px" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Morbi leo risus</span>
+                    <img src="media/delete.jpg" alt="edit icon" width="20px" height="20px" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Porta ac consectetur ac</span>
+                    <img src="media/delete.jpg" alt="edit icon" width="20px" height="20px" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>  Vestibulum at eros</span>
+                    <img src="media/delete.jpg" alt="edit icon" width="20px" height="20px" class="float-right">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- muted means video has'nt sound -->
+    <video loop autoplay muted>
+        <source src="media/bg.mp4" type="video/mp4"> 
+    </video>
+    <script src="todos.js">
+    </script>
+</body>
+
+</html>
